@@ -4,4 +4,12 @@ def reverse_string(input):
         temp=temp+input[i]
     print(temp)
 
-reverse_string("123456")
+def validate_pallindrome(input):
+    if input == input[::-1]:
+        print("Yes ")
+    else:
+        print("No")
+
+
+#reverse_string("123456")
+validate_pallindrome('12456')
