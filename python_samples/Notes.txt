@@ -1,0 +1,3 @@
+TypeError: not all arguments converted during string formatting
+ValueError
+KeyError: 'a'
