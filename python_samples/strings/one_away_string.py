@@ -18,29 +18,19 @@ def is_one_away(s1, s2):
         if len(s1) == len(s2):
             for i in range(0,len(s1)):
                 if s1[i] !=s2[i]:
-                    s3 = s1[:i] + s2[i] + s1[i + 1:]
-                    s1 = s3
+                    temp1 = s1[:i] + s1[i+1:]
+                    temp2 = s2[:i] + s2[i+1:]
+                    if temp1==temp2:
+                        print("Yesssssss")
+                    else:
+                        print("Nooooooooo")
                     break
-            if s1==s2:
-                print("Success !!!!!!!!!!1")
-        else:
-            min_length = len(s1)
-            string_to_be_modified = s1
-            s3=""
-            if len(s1) > len(s2) :
-                min_length = len(s2)
-                string_to_be_modified = s2
-            for i in range(0,min_length):
-                if s1[i] !=s2[i]:
-                    s3 = string_to_be_modified[:i] + string_to_be_modified[i] + string_to_be_modified[i + 1:]
-            if s1 == s3 or s2 == s3 :
-                print("Success!!!!!!")
-    return result
+
 
 # NOTE: The following input values will be used for testing your solution.
 is_one_away("abde", "abdc")  # should return True
 
-is_one_away("abcde", "abcd")  # should return True
+#is_one_away("abcde", "abcd")  # should return True
 """
 is_one_away("a", "a")  # should return True
 is_one_away("abcdef", "abqdef")  # should return True
