@@ -74,20 +74,21 @@ queue.append('d')  # Enqueue
 queue.popleft()  # Dequeue
 
 # Filtering
-even_numbers = [x for x in my_list if x % 2 == 0]
-even_numbers_filter = list(filter(lambda x: x % 2 == 0, my_list))
+#even_numbers = [x for x in my_list if x % 2 == 0]
+#even_numbers_filter = list(filter(lambda x: x % 2 == 0, my_list))
 
 # Mapping
-squared = [x**2 for x in my_list]
-squared_map = list(map(lambda x: x**2, my_list))
+#squared = [x**2 for x in my_list]
+#squared_map = list(map(lambda x: x**2, my_list))
 
 # Reducing
-sum = reduce(lambda x, y: x + y, my_list)
+#sum = reduce(lambda x, y: x + y, my_list)
 
 # Zip and Unzip Lists
 list1 = [1, 2, 3]
 list2 = ['a', 'b', 'c']
 zipped = list(zip(list1, list2))
+print("zipped :",zipped)
 unzipped = list(zip(*zipped))
-
+print("unzipped:",unzipped)
 

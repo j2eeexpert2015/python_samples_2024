@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Elm St",
+        "city": "Springfield",
+        "zipcode": "12345"
+      },
+      "contact": {
+        "home": "123-456-7890",
+        "mobile": "098-765-4321"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "address": {
+        "street": "456 Maple Ave",
+        "city": "Shelbyville",
+        "zipcode": "67890"
+      },
+      "contact": {
+        "home": "555-555-5555",
+        "mobile": "666-666-6666"
+      }
+    }
+  ]
+}
