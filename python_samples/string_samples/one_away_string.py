@@ -1,8 +1,8 @@
 """
 One Away Strings (Python)
-Write a function that takes two strings and returns True if they are one away from each other.
+Write a function that takes two string_samples and returns True if they are one away from each other.
 
-They are one away from each other if a single operation (changing a character, deleting a character or adding a character) will change one of the strings to the other.
+They are one away from each other if a single operation (changing a character, deleting a character or adding a character) will change one of the string_samples to the other.
 
 Examples:
 
