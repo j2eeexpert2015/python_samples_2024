@@ -12,3 +12,4 @@ def is_balanced(input):
     print("Result:",balanced)
 
 is_balanced("({[]})")
+
