@@ -2,3 +2,4 @@ TypeError: not all arguments converted during string formatting
 ValueError
 KeyError: 'a'
 TypeError: 'str' object does not support item assignment
+RuntimeError: dictionary changed size during iteration

@@ -12,7 +12,9 @@ def get_dict_unique_values(input_dict):
             unique_item_list.remove(v)
         else:
             unique_item_list.append(v)
+            #input_dict.pop(k)
     print(f"Unique item:{unique_item_list}")
+    #print(f"input_dict:{input_dict}")
 
 sample_dict = {1:"a",2:"b",3:"c",4:"a"}
 get_dict_unique_values(sample_dict)
